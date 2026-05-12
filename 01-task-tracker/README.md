@@ -6,29 +6,30 @@
 
 <https://roadmap.sh/projects/task-tracker>
 
-## Features
+## How to use
 
+```bash
 ## Adding a new task
 
-task-cli add "Buy groceries"
-Output: Task added successfully (ID: 1)
+add "Buy groceries"
 
 ## Updating and deleting tasks
 
-task-cli update 1 "Buy groceries and cook dinner"
-task-cli delete 1
+update 1 "Buy groceries and cook dinner"
+delete 1
 
 ## Marking a task as in progress or done
 
-task-cli mark-in-progress 1
-task-cli mark-done 1
+mark-in-progress 1
+mark-done 1
 
 ## Listing all tasks
 
-task-cli list
+task-cli> list
 
 ## Listing tasks by status
 
-task-cli list done
-task-cli list todo
-task-cli list in-progress
+list done
+list todo
+list in-progress
+```
