@@ -25,7 +25,7 @@ mark-done 1
 
 ## Listing all tasks
 
-task-cli> list
+list
 
 ## Listing tasks by status
 

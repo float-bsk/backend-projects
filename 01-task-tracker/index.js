@@ -31,8 +31,7 @@ let tasklist = [];
 
 function readFromFile(){
     try{        
-        const response = fs.readFileSync(filePath, {encoding:'utf8'});
-      
+        const response = fs.readFileSync(filePath, {encoding:'utf8'});      
         tasklist = JSON.parse(response);
         if(tasklist.length === 0){
             throw new Error("Your Task List is empty. Time to add new tasks!");            
@@ -78,8 +77,7 @@ function processinput(input){
     else if(v1 === "delete"){    
         id = v2;
         deleteTask(id);
-    }
-           
+    }           
     else if(v1 === "list" && !v2){
        listAllTasks();
     }
