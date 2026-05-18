@@ -1,0 +1,15 @@
+{
+  "name": "02-caching-proxy",
+  "version": "1.0.0",
+  "description": "<https://roadmap.sh/projects/caching-server>",
+  "main": "index.js",
+
+  "scripts": {
+    "dev":"node index.js --port 3000 --origin https://dummyjson.com",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
